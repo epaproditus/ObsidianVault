@@ -1,0 +1,135 @@
+components:
+  Note:
+    description: "Displays text to students."
+    fields:
+      content:
+        type: string
+        required: true
+      hidden:
+        type: boolean
+        required: false
+        default: false
+
+  MathInput:
+    description: "Receives mathematical expressions from students."
+    fields:
+      correct:
+        type: expression
+        required: false
+        description: "Defines the condition under which the student's input is considered correct."
+      disableEdit:
+        type: boolean
+        required: false
+        default: false
+        description: "When true, disables editing of the input after submission."
+      disableEvaluation:
+        type: boolean
+        required: false
+        default: false
+        description: "When true, prevents Desmos from evaluating the student's input."
+      hidden:
+        type: boolean
+        required: false
+        default: false
+        description: "When true, hides the component from the student."
+      initialLatex:
+        type: string
+        required: false
+        description: "Sets the initial LaTeX content of the input field."
+      initialText:
+        type: string
+        required: false
+        description: "Sets the initial plain text content of the input field."
+      showPeerResponses:
+        type: boolean
+        required: false
+        default: false
+        description: "When true, displays peer responses regardless of the component's position."
+      suffix:
+        type: string
+        required: false
+        description: "Appends a string (e.g., units like 'ft' or '%') to the student's input."
+
+  Graph:
+    description: "Displays graphs and visual representations."
+    fields:
+      expression:
+        type: string
+        required: true
+      bounds:
+        type: list
+        required: false
+        default: [-10, 10, -10, 10]
+
+  MultipleChoice:
+    description: "Presents multiple choice questions to students."
+    fields:
+      choiceContent:
+        type: list
+        required: true
+        description: "List of choice strings presented to the student."
+      showExplain:
+        type: boolean
+        required: false
+        default: false
+        description: "When true, prompts the student to explain their choice."
+      explainPrompt:
+        type: string
+        required: false
+        description: "The prompt text for the explanation field."
+      hidden:
+        type: boolean
+        required: false
+        default: false
+        description: "When true, hides the component from the student."
+
+activity_structure:
+  - screen_id: mood_check
+    components:
+      - type: Note
+        id: note1
+        cl:
+          content: "How are you feeling?"
+          hidden: false
+
+      - type: MultipleChoice
+        id: moodChoice
+        cl:
+          choiceContent:
+            - "😡"
+            - "😊"
+            - "😐"
+            - "😞"
+          showExplain: false
+          explainPrompt: "Wanna talk about it?"
+          hidden: false
+
+  - screen_id: introduction
+    components:
+      - type: Note
+        content: "Welcome to the lesson!"
+        hidden: false
+
+  - screen_id: instruction
+    components:
+      - type: Note
+        content: "Let's learn about quadratic functions."
+        hidden: false
+      - type: Graph
+        expression: "y = x^2"
+        bounds: [-10, 10, -10, 10]
+
+  - screen_id: practice
+    components:
+      - type: MathInput
+        correct: "this.numericValue = 9"
+        feedback:
+          when: "this.numericValue = 9"
+          then: "Correct!"
+          else: "Try again."
+
+  - screen_id: summary
+    components:
+      - type: Note
+        content: "Great job! You've completed the lesson."
+        hidden: false

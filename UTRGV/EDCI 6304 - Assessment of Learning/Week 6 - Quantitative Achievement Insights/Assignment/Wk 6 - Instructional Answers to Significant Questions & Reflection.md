@@ -1,0 +1,12 @@
+### Questions
+Q: How does the learner demonstrate their understanding of the relationship between catchment area, rainfall, and runoff coefficient in calculating the volume of water that can be harvested?
+
+A: Based on the rubric, most students have a solid understanding of accuracy of calculations and have an adequate grasp of application of formulas and understanding of the concepts but I may want to focus on the idea of a runoff coefficient when it comes to calculating and relating it to volume.  
+
+
+From this assessment, I discovered that while my students are quite skilled at calculations, they need more support in understanding the conceptual relationships among the variables, particularly regarding the runoff coefficient. This indicates a gap in their comprehension of how various surface materials affect water collection, which is crucial for accurately determining the volume of harvested rainwater. In the future, I plan to bring in different materials to demonstrate how each one influences water catchment differently.
+
+### Reflection
+Using an Excel spreadsheet to analyze data from summative assessments has shown me some promising potential, especially during our recent class. I was intrigued by how effective this method can be for creating graphs and charts that clearly display student performance data. Seeing DMAC utilize similar techniques with TEKS-based summative assessments has encouraged me to think about developing my own summative assessment rubrics. I believe that combining these rubrics with formative assessments could provide better insights into student comprehension and highlight important learning trends.
+
+The practice of tallying student performance data in class has also opened my eyes to the benefits of more tailored instructional methods. By gathering this information, I can start to track individual progress and pinpoint areas that might need additional support. While I’m just getting started with this approach, I’m eager to explore how blending summative and formative assessments can lead to more focused instruction. Ultimately, using data in this way could help educators like me make better decisions that support student success and engagement in their learning.

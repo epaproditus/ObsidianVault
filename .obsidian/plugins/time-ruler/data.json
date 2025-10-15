@@ -1,0 +1,28 @@
+{
+  "calendars": [],
+  "fieldFormat": "dataview",
+  "muted": false,
+  "timerEvent": "notification",
+  "inbox": null,
+  "search": "",
+  "taskSearch": "",
+  "fileOrder": [],
+  "customStatus": {
+    "include": false,
+    "statuses": "-"
+  },
+  "showCompleted": false,
+  "groupBy": "hybrid",
+  "dayStartEnd": [
+    0,
+    24
+  ],
+  "twentyFourHourFormat": false,
+  "filterFunction": "",
+  "addTaskToEnd": false,
+  "extendBlocks": false,
+  "hideTimes": false,
+  "borders": true,
+  "viewMode": "week",
+  "scheduledSubtasks": true
+}

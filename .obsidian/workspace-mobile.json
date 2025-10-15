@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "30066f230fa21027",
+    "type": "split",
+    "children": [
+      {
+        "id": "a00cdbb0d9fe1f3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d400eccef3c47a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter 1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 1"
+            }
+          },
+          {
+            "id": "56cb5126c2e80285",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "EEISD/Alg. I/Module 2 Topic 3/Full Topic.pdf",
+                "page": 1,
+                "left": 36,
+                "top": 837,
+                "zoom": 0.4503171053375012
+              },
+              "icon": "lucide-file-text",
+              "title": "Full Topic"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "28e5c9771ca3bfa0",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "68d525b0af382a3a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "0ff37a70b240cbc7",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "338b2eff5a894408",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "0347f09190584293",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "0fc6f3a95f174a36",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "34625f5278eed195",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "UTRGV/EDCI 7334/To Do.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "1069c525cf2eb56f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "UTRGV/EDCI 7334/To Do.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "04fefb2bb45399c9",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "UTRGV/EDCI 7334/To Do.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "fdd8cb7c84c71f6e",
+        "type": "leaf",
+        "state": {
+          "type": "timeline",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Timeline"
+        }
+      },
+      {
+        "id": "091cd628beab7630",
+        "type": "leaf",
+        "state": {
+          "type": "chatbot-view",
+          "state": {},
+          "icon": "bot",
+          "title": "BMO Chatbot"
+        }
+      },
+      {
+        "id": "fde19f35e9aef4c1",
+        "type": "leaf",
+        "state": {
+          "type": "copilot-chat-view",
+          "state": {},
+          "icon": "message-square",
+          "title": "Copilot"
+        }
+      },
+      {
+        "id": "2ec421e582fb8d44",
+        "type": "leaf",
+        "state": {
+          "type": "time-ruler-view",
+          "state": {},
+          "icon": "ruler",
+          "title": "Time Ruler"
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false,
+      "extract-highlights-plugin:Extract Highlights": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-kanban:Create new board": false,
+      "time-ruler:Open Time Ruler": false,
+      "bmo-chatbot:BMO Chatbot": false
+    }
+  },
+  "active": "56cb5126c2e80285",
+  "lastOpenFiles": [
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 6 - Quantitative Achievement Insights/Assignment/Summative Assessment Data Analysis Breakdown.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 5 - Qualitative Progress Tracking/Raw Data/Student Profiles.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 6 - Quantitative Achievement Insights/Review.md",
+    "EEISD/Alg. I/Module 2 Topic 3/Full Topic.pdf",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Blooms Taxonomy Revisited.pdf",
+    "UTRGV/EDCI 7334/Week 5/Design Challenge #2 First (very) Rough Draft.pages",
+    "UTRGV/EDCI 7334/Week 5/Design Challenge 2/Design Challenge 2.md",
+    "UTRGV/EDCI 7334/Week 5/Design Challenge 2/Design Challenge #2 First (very) Rough Draft.pdf",
+    "UTRGV/EDCI 7334/Week 5/Design Challenge 2/Texas Assessment Research Report Nov 19 2024.pdf",
+    "UTRGV/EDCI 7334/Week 5/Design Challenge 2/Texas Assessment Research Portal Report Nov 19 2024.pdf",
+    "UTRGV/EDCI 7334/Week 5/wk5 powerpoint.pdf",
+    "UTRGV/EDCI 7334/Week 5/Week 5 Reflection.pdf",
+    "UTRGV/EDCI 7334/Week 5/Week 5 Reflection.pages",
+    "UTRGV/EDCI 7334/Week 4/Week 4 Reflection.pages",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 5 - Qualitative Progress Tracking/Formative Assessment Data Analysis Breakdown.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 4/Table of Alignments and Objectives.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 5 - Qualitative Progress Tracking/Week 5 - Qualitative Progress Tracking Study Guide.md",
+    "SCR-20241117-sxvx.png",
+    "SCR-20241117-sxjo.png",
+    "SCR-20241117-sxft.png",
+    "SCR-20241117-svrk.png",
+    "SCR-20241117-svnl.png",
+    "SCR-20241117-ssox.png",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 5 - Qualitative Progress Tracking/Week 5 - Qualitative Progress Tracking Notes.md",
+    "Table of Alignments and Objectives.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 4/Reflection.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 4/Assessment as Learning Checklist.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 4/Assessment for Learning - Rubric.md",
+    "Understanding by design.md",
+    "Chapter 1.md",
+    "copilot-conversations/[[Study_guide]]_summarize_it@20241109_122755.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 3 - Summative Assessments/Wk 3 Project 2 - Project-based Assessment.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 3 - Summative Assessments/Project Objectives 2.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 3 - Summative Assessments/Project AI Index.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 3 - Summative Assessments/Learning Objective Revision Flowchart.jpg",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 3 - Summative Assessments/Wk3 Project 2 Reflection.md",
+    "Highlights for Understanding by Design.md",
+    "copilot-conversations/[_[[Project_Objectives]]_these_are_my_current_objectives._I_am@20241109_141727.md",
+    "copilot-conversations/Project Objectives 2 AI Index.md",
+    "Week 3 Reflection.md",
+    "Flipped Classroom.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 3 - Summative Assessments/Wk3 Project 2.md",
+    "UTRGV/EDCI 6304 - Assessment of Learning/Week 2/Objectives with AI.md",
+    "UTRGV/EDCI 7334/Week 3/Learning Objective Revision Flowchart.jpg"
+  ]
+}

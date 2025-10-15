@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"979cd417bd37f841","type":"file","file":"UTRGV/EDCI 7334/Week 2/Recommended Reading Schedule.md","x":-1160,"y":-860,"width":480,"height":560},
+		{"id":"d441b80eccf91898","type":"file","file":"UTRGV/EDCI 7334/Week 2/G.CountsDareProgressiveEducation.pdf","x":-120,"y":-860,"width":400,"height":400},
+		{"id":"ac00ea0af2d42e12","type":"file","file":"UTRGV/EDCI 7334/Week 2/The Child and Curriculum/J.Dewey.Thechildandthecurriculum(1).pdf","x":320,"y":-860,"width":400,"height":400},
+		{"id":"5e94743278498bc2","type":"file","file":"UTRGV/EDCI 7334/Week 2/P.FreireChs2(only)PedagogyoftheOppressed.pdf","x":760,"y":-860,"width":400,"height":400},
+		{"id":"da19cacdfed35975","type":"text","text":"Recommended Schedule","x":-120,"y":-1280,"width":185,"height":90,"color":"2"},
+		{"id":"af5961700c14f251","type":"file","file":"UTRGV/EDCI 7334/Week 2/Curriculum Goals, Objectives, and Products/Curriculum Goals, Objectives, and Products.pdf","x":-600,"y":-860,"width":400,"height":400},
+		{"id":"9149c6c08e070495","type":"text","text":"examine the values that we embed in our learning goals","x":-120,"y":-380,"width":400,"height":60,"color":"6"},
+		{"id":"370a81ccdedfa760","type":"text","text":"Whose goals and objectives  are they anyway?","x":-561,"y":-345,"width":361,"height":50,"color":"5"}
+	],
+	"edges":[
+		{"id":"183660af2b96fbc0","fromNode":"979cd417bd37f841","fromSide":"top","toNode":"da19cacdfed35975","toSide":"bottom"},
+		{"id":"92e95a1becf3926a","fromNode":"af5961700c14f251","fromSide":"top","toNode":"da19cacdfed35975","toSide":"bottom"},
+		{"id":"bfd33ba722b619bd","fromNode":"d441b80eccf91898","fromSide":"top","toNode":"da19cacdfed35975","toSide":"bottom"},
+		{"id":"ea4514c878a6c635","fromNode":"5e94743278498bc2","fromSide":"top","toNode":"da19cacdfed35975","toSide":"bottom"},
+		{"id":"de330060f7c36524","fromNode":"9149c6c08e070495","fromSide":"top","toNode":"d441b80eccf91898","toSide":"bottom"},
+		{"id":"5c12c9504f88a000","fromNode":"af5961700c14f251","fromSide":"bottom","toNode":"370a81ccdedfa760","toSide":"top"},
+		{"id":"53c5a5ce2ff3c785","fromNode":"370a81ccdedfa760","fromSide":"right","toNode":"d441b80eccf91898","toSide":"left"}
+	]
+}
